@@ -16,7 +16,7 @@
 
 **`ablate_brain_to_text_conditioning.py`** — Brain-to-text baseline: decodes flan-T5 embeddings from brain activity via ridge regression and conditions the frozen DiT on the predicted sequence.
 
-**`evaluate_ablations_models.ipynb`** — Computes all quantitative metrics (CLAP similarity, identification accuracy, Mel-SSIM, log-mel distance) and the perceptual fidelity metric Δᵢ. The NSL auditory-cortical representation requires `aud24.mat`, available at http://nsl.isr.umd.edu/downloads.html.
+**`evaluate_ablations_models.ipynb`** — Computes all quantitative metrics (CLAP similarity, identification accuracy, Mel-SSIM, log-mel distance) and the perceptual fidelity metric Δᵢ. The NSL auditory-cortical representation requires `aud24.mat`.
 
 **`evaluate_reconstructions.ipynb`** — Qualitative inspection of individual reconstructions: raw audio visualisation.
 
